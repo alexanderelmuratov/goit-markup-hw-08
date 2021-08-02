@@ -806,7 +806,7 @@ body {
   padding-bottom: 118px;
   text-align: center;
   background-color: var(--dark-bg-color);
-  background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/mobile/hero/hero-bg.jpg);
+  background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/mobile/hero/hero-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -814,20 +814,20 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/mobile/hero/hero-bg@2x.jpg);
+    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/mobile/hero/hero-bg@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/tablet/hero/hero-bg.jpg);
+    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/tablet/hero/hero-bg.jpg);
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/tablet/hero/hero-bg@2x.jpg);
+    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/tablet/hero/hero-bg@2x.jpg);
   }
 }
 
@@ -836,13 +836,13 @@ body {
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/desktop/hero/hero-bg.jpg);
+    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/desktop/hero/hero-bg.jpg);
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../../images/desktop/hero/hero-bg@2x.jpg);
+    background-image: linear-gradient(var(--gradient-bg-color), var(--gradient-bg-color)), url(../images/desktop/hero/hero-bg@2x.jpg);
   }
 }
 
