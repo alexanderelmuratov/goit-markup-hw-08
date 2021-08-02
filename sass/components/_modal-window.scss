@@ -1,0 +1,28 @@
+.modal-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding: 40px;
+  background-color: var(--tertiary-color);
+  box-shadow: var(--box-shadow-team);
+  border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1) rotate(360deg);
+  transition: transform var(--transition-duration) var(--transition-timing-function);
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0.5) rotate(240deg);
+  }
+
+  @media screen and (max-width: 480px) {
+    width: calc(100% - 30px);
+  }
+
+  @media screen and (max-width: 1199px) {
+    max-width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+  }
+}

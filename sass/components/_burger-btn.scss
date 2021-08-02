@@ -1,0 +1,23 @@
+.burger-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-btn__icon {
+  width: 40px;
+  height: 40px;
+  fill: var(--quaternary-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
+
+  .burger-btn:hover &,
+  .burger-btn:focus & {
+    fill: var(--accent-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
